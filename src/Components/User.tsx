@@ -16,7 +16,6 @@ const User = () => {
                     onClick={() => { dispatch({ type: "CHANGE_NAME", payload: "suresh" }) }}>Chanege Name</button>
                 <button className='bg-white p-2 m-2 hover:opacity-10'
                     onClick={() => { dispatch({ type: "CHANGE_AGE", payload: 23 }) }}>Chanege Name</button>
-
             </div>
         </div>
     )

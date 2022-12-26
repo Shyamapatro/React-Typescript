@@ -19,7 +19,6 @@ export const reducer = (state: typeof intialState, action: actionType) => {
             name: action.payload
         }
     }
-
     if (action.type === "CHANGE_AGE") {
         return {
             ...state,

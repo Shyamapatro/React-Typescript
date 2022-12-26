@@ -14,7 +14,6 @@ const Todo = () => {
         setTodo(e.target.value)
     }
 
-
     return (
         <div className='m-2 w-100 grid grid-row'>
             <input
